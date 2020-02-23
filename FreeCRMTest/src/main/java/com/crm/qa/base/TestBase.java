@@ -32,7 +32,7 @@ public class TestBase {
 			
 			prop = new Properties();
 			
-			FileInputStream	ip = new FileInputStream("C:\\Users\\Vineeth\\eclipse-workspace\\FreeCRMTest\\src\\main\\java\\com\\crm\\qa\\config\\config.properties");
+			FileInputStream	ip = new FileInputStream("C:\\Users\\Vineeth\\git\\FreeCRMTestAutomation\\FreeCRMTest\\src\\main\\java\\com\\crm\\qa\\config\\config.properties");
 			
 			// to load the file by using properties, to load the file we have to use the object name 'prop'
 			
