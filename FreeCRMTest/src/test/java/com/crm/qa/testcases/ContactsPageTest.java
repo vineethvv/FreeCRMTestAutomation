@@ -85,7 +85,7 @@ public class ContactsPageTest extends TestBase {
      
      @Test(priority=4, dataProvider= "getCRMTestData")
      
-     public void validateCreateNewContact(String firstname, String lastname) {
+     public void validateCreateNewContact(String firstname, String lastname){
     	 
     	 
     	 Contactspages.clickonnewcontactlink();
@@ -95,7 +95,9 @@ public class ContactsPageTest extends TestBase {
      
      @AfterMethod
  	
- 	public void teardown() {
+ 	public void teardown() throws InterruptedException {
+    	 
+    	 Thread.sleep(2000);
  		
  		driver.quit();
  	}

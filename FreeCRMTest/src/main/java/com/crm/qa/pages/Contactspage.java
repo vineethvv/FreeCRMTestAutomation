@@ -63,7 +63,7 @@ public class Contactspage extends TestBase {
     }
     
     
-    public void createnewcontact(String ftname, String ltname) {
+    public void createnewcontact(String ftname, String ltname){
     	
     	
     	firstname.sendKeys(ftname);
